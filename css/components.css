@@ -48,7 +48,6 @@
     font-size: 1.125rem;
 }
 
-/* Simple hover effect */
 .social-link:hover {
     background: rgba(39, 39, 42, 0.8);
     color: white;

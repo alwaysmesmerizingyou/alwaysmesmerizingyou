@@ -1,22 +1,41 @@
 {
-  "name": "Mesmerizing",
+  "name": "Mesmerizing - Software Engineer & Creative Developer",
   "short_name": "Mesmerizing",
-  "description": "Personal portfolio of a Software Engineer & Creative Developer",
-  "start_url": "/",
+  "description": "Crafting exceptional digital experiences with code, creativity, and a passion for innovation.",
+  "start_url": "/?source=pwa",
   "display": "standalone",
   "background_color": "#18181b",
   "theme_color": "#18181b",
   "orientation": "portrait",
+  "scope": "/",
+  "dir": "ltr",
+  "lang": "en-US",
+  "shortcuts": [
+    {
+      "name": "About Me",
+      "url": "/#about"
+    },
+    {
+      "name": "Projects",
+      "url": "/#projects"
+    },
+    {
+      "name": "Contact",
+      "url": "/#contact"
+    }
+  ],
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "/android-chrome-512x512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "/apple-touch-icon.png",
@@ -25,20 +44,18 @@
       "purpose": "any maskable"
     }
   ],
-  "prefer_related_applications": false,
-  "categories": ["development", "portfolio"],  
   "screenshots": [
     {
       "src": "/screenshot1.png",
       "sizes": "1080x1920",
-      "type": "image/png",
-      "form_factor": "narrow"
+      "type": "image/png"
     },
     {
       "src": "/screenshot2.png",
       "sizes": "1920x1080",
-      "type": "image/png",
-      "form_factor": "wide"
+      "type": "image/png"
     }
-  ]
+  ],
+  "categories": ["development", "portfolio"],
+  "prefer_related_applications": false
 }
